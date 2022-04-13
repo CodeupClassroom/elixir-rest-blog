@@ -114,7 +114,7 @@ But be patient with yourself: ***it's been a while since we dove into JavaScript
 
 ---
 
-NOTE: Feature FEA-1-B should probably already work as it was already implemented in our starter project.
+NOTE: Feature FEA-1-B probably already works as it was implemented in our starter project.
 
 ## FEA-1-B: Use Javascript/jQuery to allow a user to *view* posts in the `PostIndex.js` view.
 

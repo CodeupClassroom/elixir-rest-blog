@@ -110,9 +110,9 @@ suggested to name the *method* parameter the same as your incoming path variable
 
 ```JAVA
 @GetMapping("{id}")
-public void getById(@PathVariable Long id){
+public Post getById(@PathVariable Long id){
         ...
-        }
+}
 ```
 
 

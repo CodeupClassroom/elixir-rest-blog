@@ -64,9 +64,9 @@ public class PostsController {
 
 From `api/posts`, we can further define what requests go to which methods.
 
-ie: `GET` requests on `api/posts` go to the method annotated with `@GetMapping`.
+i.e., `GET` requests on `api/posts` go to the method annotated with `@GetMapping`.
 
-Or, `DELETE` requests on `api/posts/{id}` go to `@DeleteMapping("{id}")`.
+and `DELETE` requests on `api/posts/{id}` go to `@DeleteMapping("{id}")`.
 
 Also, with *Spring*, we do not need to convert objects to and from JSON with another dependency. ***Spring will handle
 serializing/deserializing for us!***

@@ -52,7 +52,7 @@ Now, we are free to use the newly acquired parameter same as any other method!
 #### 2. Annotate `createPost()` with `@PostMapping` to allow Spring to direct `POST` requests to this method.
 
 
-####3. Just before your incoming `Post` parameter add the annotation: `@RequestBody`.
+#### 3. Just before your incoming `Post` parameter add the annotation: `@RequestBody`.
  - This tells Spring to look at the requests body in order to find our incoming `Post`.
 
 

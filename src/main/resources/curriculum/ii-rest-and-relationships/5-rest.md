@@ -51,7 +51,7 @@ We will, as time moves on, cover more in-depth ideas behind REST and why it is s
 
 #### For more reading, check out [this link](https://www.redhat.com/en/topics/api/what-is-a-rest-api).
 
-####To read Roy Fielding's own work on this concept, [go here](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+#### To read Roy Fielding's own work on this concept, [go here](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 
 ---
 ## Next Up: [Rest Controllers](6-rest-controllers.md)

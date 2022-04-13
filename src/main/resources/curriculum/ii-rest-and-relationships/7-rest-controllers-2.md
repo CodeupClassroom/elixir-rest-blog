@@ -14,7 +14,7 @@ Consider this an extended exercise. You will be guided at times and left to work
 
 ### `@RequestBody`
 
-Remember: On `POST` and `PUT`, there exists a ***body*** property. `DELETE` will just use a path variable.
+Remember: on `POST` and `PUT`, there exists a ***body*** property (`DELETE` just uses a path variable).
 
 This request body will contain pertinent data for our controller method.
 

@@ -114,9 +114,9 @@ But be patient with yourself: ***it's been a while since we dove into JavaScript
 
 ---
 
-## FEA-1-B: Use Javascript/jQuery to allow a user to *view* posts in the `PostIndex.js` view.
+NOTE: Feature FEA-1-B should probably already work as it was already implemented in our starter project.
 
-NOTE: this feature should probably already work as it was already implemented in our starter project.
+## FEA-1-B: Use Javascript/jQuery to allow a user to *view* posts in the `PostIndex.js` view.
 
 ## FEA-2-B: Use Javascript/jQuery to allow a user to *create* posts in the `PostIndex.js` view.
 

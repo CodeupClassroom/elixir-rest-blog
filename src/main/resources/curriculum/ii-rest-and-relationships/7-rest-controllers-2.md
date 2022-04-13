@@ -1,6 +1,6 @@
-#REST Controllers, Part II
+# REST Controllers, Part II
 
-##Finishing `PostsController`
+## Finishing `PostsController`
 
 We should now complete our CRUD methods for the `PostsController`.
 
@@ -251,6 +251,6 @@ If you investigate the flow of our code, you will find that the `viewEvent` prop
 ---
 
 
-##Next Up: [The User](8-the-user.md)
+## Next Up: [The User](8-the-user.md)
 
 

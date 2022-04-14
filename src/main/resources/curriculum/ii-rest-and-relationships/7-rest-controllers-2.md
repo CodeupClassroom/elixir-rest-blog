@@ -150,10 +150,12 @@ In the export default function PostIndex, use the current code to add new elemen
 
 ---
 #### 3. In the file `PostIndex.js`, add a new export function - `PostsEvent()`.
-   This function will call on 3 additional named functions which add click event listeners for when a user:
+   This function will call 3 additional named functions which add click event listeners for when a user:
    - submits a new post
    - edits an existing post
    - deletes an existing post
+
+NOTE: you do not need to create all of these functions now. Go ahead and create a function now for adding a click listener to your submit new post button. You will create the other two functions later in this lesson.
    
 ---
 #### 4. Allow the user to submit a new post
@@ -185,6 +187,8 @@ fetch("http://localhost:8080/api/posts", request)
             createView("/posts");
         });
 ```
+
+**IMPORTANT!** You will need to import the `createView` function into your `PostIndex.js` file.
 
 Notice we are not doing anything with the response aside from looking at the `status` property?
 

@@ -20,7 +20,7 @@ Now, we need to fill out #2: **Who interacts with the application and what can t
 
 ## How to define the `User`
 
-We need to think about ***necessary*** information on the user of our the application.
+We need to think about ***necessary*** information for the user of our application.
 
 **Internally**:
 

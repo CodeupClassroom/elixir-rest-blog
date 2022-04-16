@@ -59,7 +59,7 @@ For now, let's focus on the basics of our `User` by creating a model with a few 
 - String username
 - String email
 - String password
-- Date createdAt
+- Date createdAt // ??? WHICH DATE DATA TYPE ???
 - Role role
 
 For our `Role`, we will create an `enum` inside the `User` class like so:

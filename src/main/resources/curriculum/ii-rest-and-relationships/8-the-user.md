@@ -85,7 +85,7 @@ public class User {
 
 We can now set up a REST Controller for the purpose of running CRUD operations related to the `User`.
 
-*** After completing each method, be sure to test in Swagger or Postman ***
+***After completing each method, be sure to test in Swagger or Postman***
 
 #### 1. In the package `web`, create a class called `UsersController`.
 
@@ -98,7 +98,7 @@ We can now set up a REST Controller for the purpose of running CRUD operations r
 - **Make sure the class' `@RequestMapping` value is set to `/api/users`**
     
 
-- *** WARNING, be very careful if you copypasta ***. It will be EASY for you to forget to replace one of those `Post` references
+- ***WARNING, be very careful if you copypasta***. It will be EASY for you to forget to replace one of those `Post` references
       with `User` and waste your own time tracking down the issue.
 
 

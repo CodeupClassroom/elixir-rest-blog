@@ -10,7 +10,8 @@
 
 #### 2. `getByUsername()` listening on `/api/users/username`
     - returns a `User`
-    - takes in `@RequestParam String username` as parameter
+    - takes in `@RequestParam String userName` as parameter
+    - e.g., http://localhost:8080/api/users/username?userName=jimbo
 
 
 #### 3. `getByEmail()` listening on `/api/users/email`

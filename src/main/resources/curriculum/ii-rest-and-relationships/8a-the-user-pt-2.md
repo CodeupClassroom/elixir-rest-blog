@@ -48,6 +48,7 @@ Create a `private` method `updatePassword()` listening on `{id}/updatePassword` 
    ```JAVA
       @PathVariable Long id, @RequestParam(required = false) String oldPassword, @Valid @Size(min = 3) @RequestParam String newPassword
    ```
+??? where do @Valid and @Size come from ???
 
 - With the above parameters, we can:
     - obtain the `User` record

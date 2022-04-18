@@ -17,6 +17,7 @@
 #### 3. `getByEmail()` listening on `/api/users/email`
     - returns a `User`
     - takes in `@RequestParam String email` as parameter
+    - e.g., http://localhost:8080/api/users/email?email=jimbo@aol.com
 
 ---
 ### FEA-6-C: Create client-side User view

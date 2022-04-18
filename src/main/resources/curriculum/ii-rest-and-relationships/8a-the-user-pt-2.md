@@ -41,7 +41,7 @@
 
 ### FEA-6-D: Make `updatePassword` in `UsersController`
 
-Create a `private` method `updatePassword()` listening on `{id}/updatePassword` which:
+Create a `private` method `updatePassword()` listening on `/api/users/{id}/updatePassword` which:
 
 - returns `void`
 

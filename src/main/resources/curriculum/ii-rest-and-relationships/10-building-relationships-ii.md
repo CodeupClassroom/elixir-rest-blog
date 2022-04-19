@@ -81,7 +81,7 @@ Now that we have this relationship established, let's expose endpoints to provid
     - Some `Post` objects *could* have more than one `Category` nested within them. How could we use this in our client-side to provide a more unique experience? 
 
 
-4. It will accept a parameter: `@RequestParameter String categoryName`
+4. It will accept a parameter: `@RequestParam String categoryName`
 
     
 5. As we have done previously, let's just create hard-coded objects to return.

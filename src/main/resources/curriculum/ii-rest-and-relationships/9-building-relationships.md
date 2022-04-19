@@ -53,7 +53,7 @@ As with previous lessons, test these changes in **Swagger** and see if you can g
 ### FEA-7-B: Implement client-side
 
 ---
-## FEA-8: As a user, I can see my authored blog posts
+## FEA-8: As a user, I can see my authored blog posts (in the view in User.js)
 
 ### FEA-8-A: Implement server-side
 ### FEA-8-B: Implement client-side

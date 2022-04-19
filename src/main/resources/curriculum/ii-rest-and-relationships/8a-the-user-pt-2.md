@@ -51,12 +51,13 @@ Create a `private` method `updatePassword()` listening on `/api/users/{id}/updat
       @PathVariable Long id, @RequestParam(required = false) String oldPassword, @Valid @Size(min = 3) @RequestParam String newPassword
    ```
 Be sure to include the following dependency in your pom.xml:
-```
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-validator</artifactId>
-    <version>6.0.15.Final</version>
-</dependency>```
+    ```
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>6.0.15.Final</version>
+    </dependency>
+    ```
 
 - With the above parameters, we can:
     - obtain the `User` record

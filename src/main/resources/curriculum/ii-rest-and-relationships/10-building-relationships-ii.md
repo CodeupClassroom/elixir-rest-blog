@@ -86,6 +86,8 @@ Now that we have this relationship established, let's expose endpoints to provid
     
 5. As we have done previously, let's just create hard-coded objects to return.
     - You'll want to create a `Category` object and nest a few `Post` objects within the `posts` field.
+    - Be sure to set each post's categories to null (i.e., `post.setCategories(null)`). Otherwise, you may end up with **INFINITE RECURSION** in your response
+    - TEST with Swagger or Postman!!!
     
 ---
 

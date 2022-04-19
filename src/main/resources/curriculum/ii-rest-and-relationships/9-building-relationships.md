@@ -27,7 +27,7 @@ Include the fields below in their respective classes and update their full const
 #### `Post`
 
 ```JAVA
-private User user;
+private User author;
 ```
 
 #### `User`

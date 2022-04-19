@@ -84,7 +84,7 @@ Now that we have this relationship established, let's expose endpoints to provid
 4. It will accept a parameter: `@RequestParameter String categoryName`
 
     
-5. Much how we have done this previously, let's just create hard-coded objects to return.
+5. As we have done previously, let's just create hard-coded objects to return.
     - You'll want to create a `Category` object and nest a few `Post` objects within the `posts` field.
     
 ---

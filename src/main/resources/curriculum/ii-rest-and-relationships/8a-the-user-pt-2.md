@@ -41,7 +41,7 @@
 
 ### FEA-6-D: Make `updatePassword` in `UsersController`
 
-Create a `private` method `updatePassword()` listening on `/api/users/{id}/updatePassword` which:
+Create a `private` PUT method `updatePassword()` listening on `/api/users/{id}/updatePassword` which:
 
 - returns `void`
 
@@ -62,7 +62,7 @@ Be sure to include the following dependency in your pom.xml:
 - With the above parameters, we can:
     - obtain the `User` record
     - check the old password against the new
-    - ensure the new password meets our criteria.
+    - ensure the new password meets our criteria (??? what are our criteria ???)
 
 ---
 

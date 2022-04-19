@@ -35,7 +35,7 @@ Its job is to provide the names of which categories *exist*.
 
 
 2. Let's give it only two private fields:
-    - long id
+    - Long id
     - String name
 
 

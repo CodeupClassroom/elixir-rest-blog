@@ -248,9 +248,9 @@ single post (`getOne`), inserting or updating a post (`save`), and deleting a po
 ## FEA-6-F: Implement persistence for the `User`
 
 1. Convert the `User` object to an Entity.
+    - NOTE: use the annotation `@Transient` above `private Collection<Post> posts;`
 
 2. Inside the `data` package, create a `UserRepository` much like for `PostRepository`.
-    - NOTE: use the annotation `@Transient` above `private Collection<Post> posts;`
 
 Why no `Category` repository? More to come!!
 

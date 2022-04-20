@@ -44,7 +44,7 @@ Why aren't we setting up a schema yet?
 ---
 ## Configuration
 
-**NOTE:** If a Codeup instructor is hosting your database for you, then configure `application.properties` with the database credentials that were given to you (host, username, and password)
+**NOTE:** If a Codeup instructor is hosting your database for you, then configure `application.properties` with the database credentials that were given to you (url, username, and password)
 
 Now we need to configure our data source with Spring.
 

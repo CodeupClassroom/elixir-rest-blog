@@ -54,9 +54,9 @@ CREATE TABLE posts (
     id BIGINT NOT NULL AUTO_INCREMENT,
     title VARCHAR(255) NOT NULL,
     content VARCHAR(255),
-    user_id BIGINT NOT NULL,
+    author_id BIGINT NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES users(id)
+    FOREIGN KEY (authorid) REFERENCES users(id)
 );
 ```
 

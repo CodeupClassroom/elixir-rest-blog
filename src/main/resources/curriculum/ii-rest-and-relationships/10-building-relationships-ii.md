@@ -95,7 +95,7 @@ Now that we have this relationship established, let's expose endpoints to provid
 
 ## FEA-9-D: Show categories of blog posts on the client-side
 
-## FEA-9-D: Enable assignment of categories on the client-side
+## FEA-10-D: Enable assignment of categories on the client-side
 
 ## *¡Feel free to style up your frontend!*
 

@@ -218,8 +218,7 @@ Similar to the DAOs we manually configured and coded, repositories are a tool fo
 In Spring, the Data Access Layer, has a predefined parent class (also called base class) called
 `JpaRepository`. 
 
-We will extend `JpaRepository` and define the type of objects it
-will be manipulating (`<Post, Long>`), as well as the data type of the entity's id (`Long`).
+Create a new package called `repositories` and create an `Interface` called `PostsRepository` within that package. Have your interface extend `JpaRepository` and define the type of objects it will be manipulating (`<Post, Long>`), as well as the data type of the entity's id (`Long`).
 
 ```java
 public interface PostsRepository extends JpaRepository<Post, Long> {

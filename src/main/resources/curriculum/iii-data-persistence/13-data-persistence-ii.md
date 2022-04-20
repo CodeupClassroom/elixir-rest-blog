@@ -45,7 +45,7 @@ public class Post {
 }
 ```
 
-NOTE: Leave the `@Transient` annotation above `categories`
+NOTE: For now, leave the `@Transient` annotation above `categories`
 
 This mapping is equivalent to the following MySQL table definition:
 

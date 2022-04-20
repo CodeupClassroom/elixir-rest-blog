@@ -233,7 +233,7 @@ Thanks to extending `JpaRepository<T, ID>`, we have a set of predefined methods 
 
 To get an idea, check out methods defined in the documentation on the following inherited interfaces:
 
-- [PagingAndSortingRepository<T, ID](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
+- [PagingAndSortingRepository<T, ID>](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
 - [QueryByExampleExecutor<T>](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/query/QueryByExampleExecutor.html)
 - [CrudRespository<T, ID>](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
 

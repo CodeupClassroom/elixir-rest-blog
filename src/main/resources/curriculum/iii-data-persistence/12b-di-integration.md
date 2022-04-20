@@ -9,9 +9,9 @@ Using DI (dependency injection) can be done as simply as follows:
 ```java
 public class PostsController {
     // ...
-    private final PostRepository postRepository;
+    private final PostsRepository postRepository;
     
-    public PostsController(PostRepository postRepository) {
+    public PostsController(PostsRepository postRepository) {
         this.postRepository = postRepository;
     }
     // ...
@@ -31,9 +31,9 @@ public class PostsController {
     // These two next steps are often called dependency injection, 
     // where we create a Repository instance and 
     // initialize it in the controller class constructor.
-    private final PostRepository postRepository;
+    private final PostsRepository postRepository;
 
-    public PostsController(PostRepository postRepository) {
+    public PostsController(PostsRepository postRepository) {
         this.postRepository = postRepository;
     }
 

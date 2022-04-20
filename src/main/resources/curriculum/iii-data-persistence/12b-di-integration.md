@@ -57,18 +57,18 @@ public class PostsController {
 Now THAT was easy, huh? 
 
 ---
-## TODO: Complete Integration
+## Complete Initial Integration
 
-1. Finish integrating `Post` repository/controller
+1. Finish integrating `Post` repository/controller by 
 
 
-2. Follow the same pattern to integrate `User` repository/controller.
+2. Follow the same pattern to integrate `User` repository/controller. Ignore `getByUsername` and `getByEmail` for now.
 
 
 3. If you need more acute querying for your endpoints, see [Data Persistence, Pt II](14-data-persistence-iii.md).
 
 ---
-## TODO: Testing -> The Moment of Truth.
+## The Moment of Truth.
 
 Now, it's time to spin up your application! 
 

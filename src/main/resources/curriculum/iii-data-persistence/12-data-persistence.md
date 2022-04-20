@@ -4,7 +4,7 @@
 
 
 ---
-### This lesson will be a contiuation of: 
+### This lesson is a continuation of: 
 ## FEA-6: As a user, I can view, edit, and delete information about myself.
 
 ### And will introduce, as part of this lesson:

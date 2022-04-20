@@ -210,6 +210,8 @@ CREATE TABLE posts (
 );
 ```
 
+#### For now, use the `@Transient` annotation for your `Post` class fields `author` and `categories`. The `@Transient` annontation prevents them from mapping to database columns.
+
 ---
 ## Repositories
 

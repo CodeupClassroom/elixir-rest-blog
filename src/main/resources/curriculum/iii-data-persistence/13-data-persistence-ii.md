@@ -74,51 +74,23 @@ this case, **the property `user` generates a column `user_id`**.
 ## `@OneToMany`
 
 A many-to-one association and a one-to-many association are the same association
-seen from the perspective of the owning and subordinate entities, respectively.
+seen from the perspective of the owning and subordinate entities, respectively. For example, Posts have a Many-to-One relationship with Users and conversely, Users have a One-to-Many relationship with Posts.
 
-Going back to our `Post` class, a post can have several images; we can map this as a
-bi-directional association as follows:
+Going to our `User` class, let's specify the converse relationship so that one user may be connected to many posts:
 
 ```java
 @Entity
-@Table(name="posts")
-public class Post {
+@Table(name="users")
+public class User {
     /* ... */
 
-   @OneToMany(mappedBy = "post")
-   @JsonIgnoreProperties("post")
-   private List<PostImage> images;
+    @OneToMany(mappedBy = "author")
+    @JsonIgnoreProperties("author")
+    private Collection<Post> posts;
 }
 ```
 
-```java
-@Entity
-@Table(name="post_images")
-public class PostImage {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-
-    @Column(nullable = false)
-    private String path;
-
-    @ManyToOne
-    private Post post;
-}
-```
-
-The `post_images` definition would look like the following:
-
-```sql
-CREATE TABLE post_images (
-    id BIGINT NOT NULL AUTO_INCREMENT,
-    path VARCHAR(255) NOT NULL,
-    post_id BIGINT,
-    PRIMARY KEY (id),
-    FOREIGN KEY (post_id) REFERENCES posts(id)
-);
-```
-
-In this case, Hibernate generated a `post_id` column from the `private Post post;` property in `PostImage`
+**IMPORTANT:** make sure that all involved primary AND foreign keys are the same MySQL data type, i.e., all of them are `int`s OR `bigint`s !
 
 ---
 ## @ManyToMany

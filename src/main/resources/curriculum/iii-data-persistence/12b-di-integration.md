@@ -72,33 +72,15 @@ Now THAT was easy, huh?
 
 Now, it's time to spin up your application! 
 
-1. Start it, then check your database to see if the tables were created!
+1. Start it, then check your database to see if the `posts` and `users` tables were created!
 
-2. From a database console, create at least 3 categories records.
-    - Run a SELECT statement to ensure they were created.
-    
+2. Manually insert a few post and user records.
 
-2. Use a Fetch POST request on `/api/users` to create a few `User` records and verify they are in the database.
+3. Use Swagger or Postman to fetch all posts and fetch one post.
 
-
-3. Then, use another POST request to create Posts.
-    - Keep in mind that you MUST have an existing `User` associated with the post
-    - Also, make sure to give each new `Post` a category
-    
-**Things to test**:
-
-- What happens if I create a `Post` with no `User`?
-  
-
-- What happens if I create a `Post` with an invalid `User`?
-  
-
-- Create a `Post` with an invalid `Category`. What happens?
-
-
-- Can I delete a `User` which has `Post` records associated?
-    
-As always, test ***each*** endpoint and ensure the results are what you expect - both in the responses *and* in the database.
+4. Use Swagger or Postman to fetch all users and fetch one user
+        
+Congratulations! You have connected your `Post` and `User` Java classes to your database using JPA. But... we're not done yet! On to part 2 of data persistence!
 
 
 

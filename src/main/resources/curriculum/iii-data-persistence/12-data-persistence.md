@@ -1,6 +1,6 @@
 # Data Access in Spring
 
-### *Note: for the next few lessons, we will not run our application. This is to allow for a full set of instruction before seeing the end results.*
+### *Note: we will not run our application until then end of the next lesson. THere is a bit of work for us to do before we can actually see results.*
 
 
 ---

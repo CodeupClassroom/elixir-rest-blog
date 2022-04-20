@@ -243,7 +243,7 @@ it in our other classes!
 
 By extending `JpaRepository`, we inherit the CRUD functionality that the Spring
 framework provides, including methods for retrieving an Iterable Interface (see Further Reading below) with all the posts (`findAll`), a
-specific ad (`getOne`), inserting or updating a post (`save`), and deleting a post (`delete`).
+single post (`getOne`), inserting or updating a post (`save`), and deleting a post (`delete`).
 
 ---
 ## FEA-6-F: Implement persistence for the `User`

@@ -242,9 +242,8 @@ Just by defining an interface that extends `JpaRepository`, we can start using
 it in our other classes!
 
 By extending `JpaRepository`, we inherit the CRUD functionality that the Spring
-framework provides, including methods for retrieving an Iterable Interface[^1] with all the posts (`findAll`), a
-specific ad (`getOne`), inserting or updating an ad (`save`), and deleting an
-ad (`delete`).
+framework provides, including methods for retrieving an Iterable Interface (see Further Reading below) with all the posts (`findAll`), a
+specific ad (`getOne`), inserting or updating a post (`save`), and deleting a post (`delete`).
 
 ---
 ## FEA-6-F: Implement persistence for the `User`

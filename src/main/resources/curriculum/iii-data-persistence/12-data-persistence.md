@@ -264,8 +264,7 @@ Why no `Category` repository? More to come!!
 - [Using the `@Query` Annotation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.at-query)
 - [The Object Oriented Paradigm of Data Persistence](http://www.javaworld.com/article/2077817/java-se/understanding-jpa-part-1-the-object-oriented-paradigm-of-data-persistence.html)
 
-## Next Up: [Data Persistence, Pt II](13-data-persistence-ii.md)
-
+## Next Up: [Dependency Injection and Controller Integration](12b-di-integration.md)
 
 
 

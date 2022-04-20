@@ -63,6 +63,13 @@ CREATE TABLE posts (
 As you can see, Hibernate generates a column name based on the property name, in
 this case, **the property `user` generates a column `user_id`**.
 
+#### TEST!
+
+1. Manually modify the author_id fields of the records in your `posts` table. Use valid `id` values from your user records.
+
+2. Fetch your posts via Postman or Swagger
+
+
 ---
 ## `@OneToMany`
 

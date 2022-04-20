@@ -24,6 +24,8 @@ work with **JPA** entities in the Spring framework.
 ---
 
 ## Database Setup
+**NOTE:** You may skip this step if a Codeup instructor is hosting your database for you
+
 Before we can use the Spring framework's built-in data access abilities, we need
 a database user for our application. Configure a new data source in your project
 or login into your mysql server using the terminal client and run the following queries:
@@ -41,6 +43,8 @@ Why aren't we setting up a schema yet?
 
 ---
 ## Configuration
+
+**NOTE:** If a Codeup instructor is hosting your database for you, then configure `application.properties` with the database credentials that were given to you (host, username, and password)
 
 Now we need to configure our data source with Spring.
 

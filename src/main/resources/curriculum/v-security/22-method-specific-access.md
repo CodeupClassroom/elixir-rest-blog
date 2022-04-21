@@ -6,9 +6,7 @@
 
 When restricting access to controller methods, we have a couple of approaches in Spring Security.
 
-We can:
-
-Append to the path with routes to that method:
+One approach is to append to the path with routes to that method:
 
 ```JAVA
     @PostMapping
@@ -41,9 +39,9 @@ That could lead to dozens of individual endpoints and a `ResourceServerConfigura
 
 ## Applying `@PreAuthorize`
 
-In this approach, we add `@PreAuthorize` to the top of a controller method.
+Another approach to restricting access to controller methods is to add `@PreAuthorize` to the top of a controller method.
 
-### Of note: Your annotated method *must* not be private!
+### Of note: Your annotated method *must* not be private!!!
 
 This annotation can contain a boolean expression which compares the authority of a given user (via the ***token*** present in the header)
 against a set of conditions (as a ***boolean expression***). 

@@ -89,7 +89,7 @@ class PostsController {
 
 
 ---
-###Now, we have three distinct layers of our server-side application (aside from security):
+### Now, we have three distinct layers of our server-side application (aside from security):
 
 - Data Transfer Layer (Controllers)
   
@@ -99,7 +99,6 @@ class PostsController {
 
 - Data Access Layer (Repositories)
 
-### More than that, after you test this all, you have ANOTHER full stack application!
 
 ## Next Up: [Intro To Security](../v-security/18-intro-to-security.md)
 

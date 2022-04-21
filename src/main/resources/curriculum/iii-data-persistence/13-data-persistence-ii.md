@@ -261,7 +261,7 @@ If you haven't yet, complete the conversion of `User`, `Post`, and `Category` to
 - Create repositories for each object.
 
 
-- **TEST, TEST, TEST** (in Swagger and the UI)
+- **TEST, TEST, TEST** (in Swagger (or Postman) and the UI)
 
 ---
 ## Further Reading

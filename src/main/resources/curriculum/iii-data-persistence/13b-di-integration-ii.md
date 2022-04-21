@@ -40,7 +40,7 @@ While JPA might have some awesome annotation for avoiding this mess, we can inst
 
 ## deletePost
 
-This one is easy. `PostsRepository` has a perfect delete method to accomplish this.
+This one is easy. `PostsRepository` has a perfect delete method to accomplish this and you probably already did this in DI-Integration part 1.
 
 ## updatePassword
 

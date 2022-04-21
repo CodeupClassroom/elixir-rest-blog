@@ -17,7 +17,7 @@ we will need to take a look at:
 
 ---
 
-### Of Note: From this point, we will be doing much of our testing using the Client-Side App or Fetch API within the browser console.
+### Of Note: From this point forward, we will use the Client-Side App or Fetch API within the browser console for much of the testing.
 
 ---
 ## TODO: Create the Access and Refresh Tokens

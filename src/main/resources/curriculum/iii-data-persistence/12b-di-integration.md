@@ -59,7 +59,7 @@ Now THAT was easy, huh?
 ---
 ## Complete Initial Integration
 
-1. Finish integrating `Post` repository/controller by 
+1. Finish integrating the `PostsRepository` into the `PostsController` by calling it within the create, update, and delete methods.
 
 
 2. Follow the same pattern to integrate `User` repository/controller. Ignore `getByUsername` and `getByEmail` for now.

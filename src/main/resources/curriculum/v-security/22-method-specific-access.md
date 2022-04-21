@@ -58,11 +58,9 @@ For example:
     }
 ```
 
-Here `!hasAuthority('USER')` indicates that if the user is currently does not have the role of `USER`, then the method is allowed to be invoked.
+Here `!hasAuthority('USER')` indicates that if the logged-in user does not have the role of `USER`, then the method is allowed to be invoked.
 
-Realistically, this means that we are expecting this method to be invoked *ONLY* if the request comes from a non-registered user OR an `ADMIN` user.
-
-Aka: a regular user can't create a new user.
+Realistically, this means that we are expecting this method to be invoked *ONLY* if the request comes from a non-registered user OR an `ADMIN` user. I.e., a regular user cannot create a user.
 
 `!hasAuthority('USER')` is simply a boolean expression. You can expand this into a more robust expression 
 in the same way you can create a boolean expression for an `if` statement:

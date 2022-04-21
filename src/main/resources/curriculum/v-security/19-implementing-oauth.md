@@ -72,7 +72,7 @@ public class UserService implements UserDetailsService {
 
 ### 1. In `security`, create a class named `ServerSecurityConfig`.
 
-- This class begins orchestrating a more full picture of the `User` in relation to our application
+- This class begins orchestrating a more complete picture of the `User` in relation to our application
   
 
 - It authenticates the source of the `User` (`UserService` / `UserRepository`)

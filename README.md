@@ -1,6 +1,6 @@
 # REST Blog
 
-This project is a sandbox for various SPA solutions to build a frontend interface for a basic blogging API. Various branches will contain different approaches to this, including using only "vanilla JS," Vue JS, and React.
+This project is a sandbox for a full-stack Single Page Application solution for a basic blogging app. The backend is Java+Spring and the frontend uses a custom SPA framework built by Codeup staff.
 
 ## General Architecture
 

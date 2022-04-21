@@ -13,7 +13,7 @@ However, now that posts have an `author` instance variable of type `User`, you s
 3. Then save the post via the `postsRepository`.
 
 Now... you are most likely asking "how in the world can I fetch a user in the `PostsController`??? This is for posts, not users!!!" 
-Well, just use Dependency Injection to inject a `UsersRepository` into your `PostsController` in the same way you injected a `PostsRepository`. In fact, if you are using Lombok's fabulous `@AllArgsConstructor`, all you need to do is declare a `UserRepository` instance variable. And then your `PostsController` can also work with `User` data. /golfclap
+Well, just use Dependency Injection to inject a `UsersRepository` into your `PostsController` in the same way you injected a `PostsRepository`. In fact, if you are using Lombok's fabulous `@AllArgsConstructor`, all you need to do is declare a `UserRepository` instance variable. And voila! Your `PostsController` can now work with `User` data. /golfclap
 
 ### Exercise
 

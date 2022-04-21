@@ -209,7 +209,7 @@ CREATE TABLE post_category (
 
 
 
-###Of Note:
+### Of Note:
 
 Notice that we did not have to create a POJO for `PostCategory`, yet we have a generated SQL Table called `post_category`?
 

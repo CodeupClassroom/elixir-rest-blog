@@ -45,8 +45,6 @@ In order to authenticate a `User` with our server, the `User` must actually exis
 6. Looking at the decoded JWT (JSON Web Token), what do you notice?
     - Compare these values to what you see in `OAuthConfiguration`
 
-7. NOTE: to verify the JWT signature, copy the value you placed in the `OAuthConfiguration` class in the `@Value("${jwt.signing-key:` annotation (we used "123" originally). You should see a blue "Signature Verified" appear on the left side.
-
 
 ---
 

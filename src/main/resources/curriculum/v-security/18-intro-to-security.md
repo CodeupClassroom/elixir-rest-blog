@@ -8,7 +8,7 @@ Additionally, we must ensure that a user's information can't be used to penetrat
 
 There are two parts to securing an application:
 
-####Authentication and Authorization
+#### Authentication and Authorization
 
 And we have a fantastic way of implementing that security!
 
@@ -40,7 +40,7 @@ The realm which serves up our actual content on protected endpoints (`/api`, in 
 It uses the ***token*** found in the request header to verify the resource request.
 
 
-###From a registered user's perspective, here's what the flow would look like:
+### From a registered user's perspective, here's what the flow would look like:
 
 ![OAuthPasswordGrant](../auth.png)
 

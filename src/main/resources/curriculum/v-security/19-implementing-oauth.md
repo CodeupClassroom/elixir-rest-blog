@@ -148,6 +148,8 @@ Wait a second... what's a JWT???
 Good question! Take a break and read this page (it's a little long but JWTs are really important in web security!)
 https://jwt.io/introduction
 
+Now that you know what a JWTs are, let's continue:
+
 ```JAVA
 
 import org.springframework.beans.factory.annotation.Value;

@@ -250,6 +250,8 @@ single post (`getOne`), inserting or updating a post (`save`), and deleting a po
 ## FEA-6-F: Implement persistence for the `User`
 
 1. Convert the `User` object to an Entity.
+    - Add the `@ToString.Exclude` annotation to the `User` class' `password` field. Once the database table is created, ensure that it is `char` or `varchar` with a length of 255.
+    
     - Use the annotation `@Transient` above `private Collection<Post> posts;`
 
     - Use `@NotNull` and `@Enumerated(EnumType.STRING)` above `role`. Double-check the `role` field in your `users` database table and make sure it is `char` or `varchar` with a length of at least 5

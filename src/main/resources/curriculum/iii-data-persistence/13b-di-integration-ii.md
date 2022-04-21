@@ -21,96 +21,43 @@ Modify your `PostsController` to save a new post with a pre-determined author of
 
 ## updatePost
 
+Just like `createPost`, `updatePost` seems simple on the surface. But there is pure evil beyond that facade.
+
+The problem lies in the fact that the request may contain an incomplete post object for updating the database. Hibernate WILL update all fields, missing or not, and if the field is missing when the `Post` object is created by Spring, it will have a value of `null`. This means Hibernate will overwrite perfectly good data in your table with `null`s. So uncool.
+
+While JPA might have some awesome annotation for avoiding this mess, we can instead compare the incoming, possibly incomplete object with a saved copy of the object from the database. Any non-null value in the incoming object should be considered as changed data and can overwrite the same field in the object fetched from the database. Any `null` value in the incoming object should be ignored. Here is the algorithm:
+1. Fetch a `Post` object using the `UsersRepository` with the same `id` as the incoming `Post` object.
+2. Check each field in the incoming `Post` object. If non-null, then overwrite the same field in the `Post` object from the database with the value from the incoming `Post`.
+3. Then save the post via the `postsRepository`.
+
+**IMPORTANT:** Ry has a SWEET and VERY REUSABLE method you can use to make this a snap!
+
+### Exercise
+
+Modify your `PostsController` so that `updatePost` no longer obliterates your database records with `null`s.
+
+## deletePost
+
+This one is easy. `PostsRepository` has a perfect delete method to accomplish this.
+
+## updatePassword
+
+The algorithm for this method is not bad.
+1. Fetch the `Post` object from the database whose `id` matches the `id` parameter
+2. Set the object's `password` field to `newPassword`
+3. Then save the post via the `postsRepository`.
+
+### Exercise
+
+Get your `deletePost` and `updatePassword` methods working.
+
+### Extra BONUS Exercise!!!
+
+Modify your `createPost` so that new posts are automatically assigned a few default categories. Yes... this will involved create a 3rd repository instance variable in your `PostsController`. Not a big deal if you are using Lombok.
+
+NOTE: If you went above and beyond in the Building Relationships section, you may already be sending selected categories for the new post in the request body. Use those instead of default categories for the new post.
 
 
-Dependency injection means that we will ***inject*** a class' ***dependencies*** instead of instantiating them manually.
-
-Behind the scenes, Spring (and many other frameworks) create what is called a **container** to store instances of our objects which can be called upon whenever we need without having to use the `new` keyword.
-
-Using DI (dependency injection) can be done as simply as follows:
-
-```java
-public class PostsController {
-    // ...
-    private final PostsRepository postRepository;
-    
-    public PostsController(PostsRepository postRepository) {
-        this.postRepository = postRepository;
-    }
-    // ...
-}
-```
-
-We can use DI in most of the classes in our Spring
-application. We can even inject services into other services! 
-
-This is how you can use it in order to get the list of all Ads.
-
-```java
-import com.example.restblog.data.PostRepository;
-
-public class PostsController {
-
-    // These two next steps are often called dependency injection, 
-    // where we create a Repository instance and 
-    // initialize it in the controller class constructor.
-    private final PostsRepository postRepository;
-
-    public PostsController(PostsRepository postRepository) {
-        this.postRepository = postRepository;
-    }
-
-    @GetMapping
-    public List<Post> getPosts() {
-        
-        // Because of DI, 
-        // we don't have to do this:
-       
-        // PostRepositoryImpl repo = new PostRepositoryImpl()
-        
-        // Instead, we get this lovely snippet 
-        // and can use postRepository over and 
-        // again in this class.
-        return postRepository.findAll();
-    }
-
-    // ...
-}
-```
-Now THAT was easy, huh? 
-
----
-## Complete Initial Integration
-
-1. Finish integrating `Post` repository/controller by 
-
-
-2. Follow the same pattern to integrate `User` repository/controller. Ignore `getByUsername` and `getByEmail` for now.
-
-
-3. If you need more acute querying for your endpoints, see [Data Persistence, Pt II](14-data-persistence-iii.md).
-
----
-## The Moment of Truth.
-
-Now, it's time to spin up your application! 
-
-1. Start it, then check your database to see if the `posts` and `users` tables were created!
-
-2. Manually insert a few post and user records.
-
-3. Use Swagger or Postman to fetch all posts and fetch one post.
-
-4. Use Swagger or Postman to fetch all users and fetch one user
-        
-Congratulations! You have connected your `Post` and `User` Java classes to your database using JPA. But... we're not done yet! On to part 2 of data persistence!
-
-
-
----
-### Further Reading
-- [What is Dependency Injection?](http://stackoverflow.com/questions/130794/what-is-dependency-injection)
-- [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
-- [Spring Beans and dependency injection](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-spring-beans-and-dependency-injection.html)
+Congratulations! You have made your `PostsController` officially `SUPER AWESOME`!
 
 ## Next Up: [Data Persistence, Pt II](13-data-persistence-ii.md)

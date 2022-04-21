@@ -252,7 +252,7 @@ single post (`getOne`), inserting or updating a post (`save`), and deleting a po
 1. Convert the `User` object to an Entity.
     - Use the annotation `@Transient` above `private Collection<Post> posts;`
 
-    - Use @NotNull and @Enumerated(EnumType.STRING) above `role`
+    - Use `@NotNull` and `@Enumerated(EnumType.STRING)` above `role`. Double-check the role field in your `users` database table and make sure it is `char` or `varchar` with a length of at least 5
     
 2. Inside the `data` package, create a `UserRepository` much like for `PostRepository`.
 

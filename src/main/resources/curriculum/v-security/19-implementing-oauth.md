@@ -2,6 +2,8 @@
 
 ***PAY CLOSE ATTENTION*** to details in this lesson. Naming, placement, and ordering are paramount!
 
+**IMPORTANT:** You may need some additional classes in your `errors` package for this lesson. Please check with your instructor before proceeding!
+
 ---
 ### The following is a feature list to be implemented in your application
 

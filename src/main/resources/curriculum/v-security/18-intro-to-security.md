@@ -2,7 +2,7 @@
 
 As web developers, security is not just a nice-to-have: it is an ***imperative***.
 
-When data on users drives so much we do, it's our job ensure their information is safe.
+When user information drives so much we do, it's our job ensure their information is safe.
 
 Additionally, we must ensure that a user's information can't be used to penetrate our application in order to perform nefarious actions.
 

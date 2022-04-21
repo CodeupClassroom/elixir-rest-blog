@@ -9,7 +9,7 @@ Be sure to pay **close attention** to details in this lesson. Naming, placement,
 
 ## FEA-14: As a validated user, I can create, edit and delete posts.
 
-## FEA-15: As an anonymous user, I can neither create, edit, nor delete posts.
+## FEA-15: As an anonymous user, I cannot create, edit, or delete posts.
 
 ## FEA-16: As an ADMIN user, I have full access to create, edit, and delete any posts.
 

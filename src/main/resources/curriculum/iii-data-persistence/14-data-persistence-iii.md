@@ -48,7 +48,7 @@ public interface PostRepository extends JpaRepository<Post, Long> {
     Post getPostById(long id);
     
     // The following method shows you how to use named parameters in a HQL custom query:    
-    @Query("from posts a where a.title like %:term%")
+    @Query("from Post a where a.title like %:term%")
     List<Post> searchByTitleLike(@Param("term") String term);
 }
 ```

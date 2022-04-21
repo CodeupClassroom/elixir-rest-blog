@@ -17,7 +17,8 @@ Well, just use Dependency Injection to inject a `UsersRepository` into your `Pos
 
 ### Exercise
 
-Modify your `PostsController` to save a new post with a pre-determined author of your choice (i.e., an id for a user record that is already in your database).
+- Modify your `PostsController` to save a new post with a pre-determined author of your choice (i.e., an id for a user record that is already in your database).
+- and modify `UsersController` `createUser` so that it creates a new User. Test it with Postman AND the Register screen in your frontend.
 
 ## updatePost
 
@@ -34,7 +35,8 @@ While JPA might have some awesome annotation for avoiding this mess, we can inst
 
 ### Exercise
 
-Modify your `PostsController` so that `updatePost` no longer obliterates your database records with `null`s.
+- Modify your `PostsController` so that `updatePost` no longer obliterates your database records with `null`s.
+- and modify your `UsersController` `updateUser` method in a similar fashion.
 
 ## deletePost
 
@@ -49,7 +51,7 @@ The algorithm for this method is not bad.
 
 ### Exercise
 
-Get your `deletePost` and `updatePassword` methods working.
+- Get your `deletePost` and `updatePassword` methods working.
 
 ### Extra BONUS Exercise!!!
 

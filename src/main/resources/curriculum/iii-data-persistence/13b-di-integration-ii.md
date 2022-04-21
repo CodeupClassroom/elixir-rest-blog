@@ -45,9 +45,9 @@ This one is easy. `PostsRepository` has a perfect delete method to accomplish th
 ## updatePassword
 
 The algorithm for this method is not bad.
-1. Fetch the `Post` object from the database whose `id` matches the `id` parameter
+1. Fetch the `User` object from the database whose `id` matches the `id` parameter
 2. Set the object's `password` field to `newPassword`
-3. Then save the post via the `postsRepository`.
+3. Then save the user via the `UsersRepository`.
 
 ### Exercise
 

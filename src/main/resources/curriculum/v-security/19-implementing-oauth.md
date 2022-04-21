@@ -144,6 +144,9 @@ We bring together these resources in order to help create the definition of our 
 - converting the token to/from a JWT to a Java object
 - inform Spring Security of how to compare claims in a token to our registered `UserDetailsService` implementation (`UserService`).
 
+Wait a second... what's a JWT???
+Good question! Take a break and read this page (it's a little long but JWTs are really important in web security!)
+https://jwt.io/introduction
 
 ```JAVA
 

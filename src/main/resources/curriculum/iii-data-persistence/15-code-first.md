@@ -19,6 +19,6 @@ This tells Hibernate to look through all of our defined entities and make any
 updates it needs to our database structure, including creating any tables
 that do not exist.
 
-***WARNING: if we drop a field from our entity, we need to either drop that column in the database table or regenerate the table.***
+***WARNING: if you drop a field from our entity, you MUST EITHER either drop that column in the database table OR regenerate the table.***
 
 ## Next Up: [Services](../iv-business-layer/17-services.md)

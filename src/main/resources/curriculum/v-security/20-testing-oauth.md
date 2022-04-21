@@ -57,6 +57,7 @@ Now, it's time to ensure your user has access to the endpoints they need.
 - [x] Unauthenticated user cannot edit posts
 - [x] Unauthenticated user cannot delete posts
 
+NOTE: To test authenticated access to endpoints in Postman, add a Header to your request with a key of `Authorization` and a value of `Bearer <your access_token>`
 
 - [x] Authenticated user with USER role can **view** all posts
 - [x] Authenticated user with USER role can **create** posts

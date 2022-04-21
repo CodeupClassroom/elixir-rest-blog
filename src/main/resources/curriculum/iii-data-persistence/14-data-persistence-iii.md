@@ -56,7 +56,7 @@ public interface PostRepository extends JpaRepository<Post, Long> {
 
 ### Use the above examples as templates to complete:
 
-## FEA-6-G: fix your `findByUsername` and `findByEmail` methods in `UsersRepository` AND fix your `getPostsByCategory` in `CategoriesController`
+## FEA-6-G: fix your `findByUsername` and `findByEmail` methods in `UsersRepository` AND fix your `getPostsByCategory` method in `CategoriesController`
 
 ---
 

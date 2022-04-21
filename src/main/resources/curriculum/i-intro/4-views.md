@@ -4,7 +4,7 @@
 
 ## Adding a `ViewController` to your project
 
-In a Single Page Application, changing the location of the browser (e.g., typing a new route in the address bar) will not be handled by the SPA router. Instead, the browser tries to find the new web resource by talking to the web server that serves up your application. If IntelliJ is serving up your application, this is not so great.
+In a Single Page Application, changing the location of the browser (e.g., typing a new URL in the address bar) will not be handled by the SPA router. Instead, the browser tries to find the new web resource by talking to the web server that serves up your application. If IntelliJ is serving up your application, this is not so great.
 
 The way to handle this is to tell whatever is serving up your application to redirect BACK to your index.html page if it encounters any of the routes that are mapped to your router (e.g., /posts). We will accomplish this by adding a controller to Spring that handles all of your router's routes by redirecting the browser to `index.html`. 
 

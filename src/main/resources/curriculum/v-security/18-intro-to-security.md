@@ -35,7 +35,7 @@ Those tokens will be used to validate requests to our *resource server*.
 
 ### 3. Resource Server
 
-The realm which serves up our actual content on protected endpoints (`/api`, in our case).
+The realm which serves up our actual content and/or protected endpoints (`/api`, in our case).
 
 It uses the ***token*** found in the request header to verify the resource request.
 

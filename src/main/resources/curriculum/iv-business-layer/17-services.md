@@ -25,7 +25,7 @@ In order to use the default email implementation with Spring you will need to ad
 </dependency>
 ```
 
-Here is an example service class which could be used to notify the user when a new Post has been created:
+Here is an example service class which could be used to notify the user when a new Post has been created. Create a new package called `services` and put the `EmailService` class in that package.
 
 ```java
 @Service("mailService")

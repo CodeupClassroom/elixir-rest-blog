@@ -22,7 +22,7 @@ The naming convention is as follows:
 ```JAVA
 ObjectToReturn findByColumnName(columnValue);
         
-ie:
+e.g.,
 Post findByUserId(long userId);
 ```
 

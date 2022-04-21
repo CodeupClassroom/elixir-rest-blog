@@ -1,8 +1,6 @@
 # Implementing OAuth 2.0
 
-This setup will involve a lot of follow-along!
-
-Be sure to pay **close attention** to details in this lesson. Naming, placement, and ordering are paramount!
+***PAY CLOSE ATTENTION*** to details in this lesson. Naming, placement, and ordering are paramount!
 
 ---
 ### The following is a feature list to be implemented in your application

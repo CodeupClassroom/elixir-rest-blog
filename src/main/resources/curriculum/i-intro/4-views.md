@@ -8,7 +8,9 @@ In a Single Page Application, changing the location of the browser (e.g., typing
 
 The way to handle this is to tell whatever is serving up your application to redirect BACK to your index.html page if it encounters any of the routes that are mapped to your router (e.g., /posts). We will accomplish this by adding a controller to Spring that handles all of your router's routes by redirecting the browser to `index.html`. 
 
-**NOTE:** you should **NO LONGER** use IntelliJ to serve up your web application. You should instead, point your browser to `http://localhost:8080/`, or whichever server.port you have changed to in `application.properties`.
+**NOTE:** you should **NO LONGER** use IntelliJ to serve up your web application. You should instead, point your browser to `http://localhost:8080/`, or whichever server.port you have changed to in `application.properties`. 
+
+**NOTE 2:** With the backend now serving up the frontend, you will have to restart the backend whenever you make a frontend change. BIG frowny face!
 
 Add the following `ViewController` class to your `web` package.
 

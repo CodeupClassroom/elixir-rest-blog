@@ -252,7 +252,7 @@ single post (`getOne`), inserting or updating a post (`save`), and deleting a po
 1. Convert the `User` object to an Entity.
     - Use the `@Email` and `@NotEmpty` annotations for the `email` field
     
-    - Use `@ToString.Exclude` and `@JsonIgnore` annotations for the `password` field. Once the database table is created, ensure that it is `char` or `varchar` with a length of 255.
+    - Use `@ToString.Exclude` annotation for the `password` field. Once the database table is created, ensure that it is `char` or `varchar` with a length of 255.
     
     - Use the annotation `@Transient` above `private Collection<Post> posts;`
 

@@ -167,7 +167,7 @@ NOTE: you do not need to create all of these functions now. Go ahead and create 
       - Grab the input field values and place them in a new `post` object with `title` and `content` properties.
       - Create a request object with `method`, `headers`, and `body` properties.
          - The `method` value is `"POST"`
-         - The `headers` value is `{'Content-Type': 'application/json'}`
+         - The `headers` value is a call to `getHeaders()`, which will return the object `{'Content-Type': 'application/json'}` for now. Later, it will automatically add an access token once security is turned on. Be sure to import `getHeaders()` from `auth.js`
          - The `body` value is `JSON.stringify(post)`
       - Pass the request object to a new fetch() call
          - URL is `http:localhost:8080/api/posts`

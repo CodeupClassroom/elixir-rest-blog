@@ -95,7 +95,7 @@ We can now set up a REST Controller for the purpose of running CRUD operations r
 - You will need methods for `getAll`, `getById`, `create`, `update`, and `deleteById` with their respective annotations.
 
 
-- **Make sure the class' `@RequestMapping` value is set to `/api/users`**
+- **Make sure the class' `@RequestMapping` value is set to `/api/users`**. IMPORTANT: register user needs a special endpoint `/api/users/create`
     
 
 - ***WARNING, be very careful if you copypasta***. It will be EASY for you to forget to replace one of those `Post` references

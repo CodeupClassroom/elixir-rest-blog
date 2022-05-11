@@ -16,13 +16,27 @@ Libraries tend to make some part of building a software application easier/faste
 
 In a nutshell, frameworks tend to solve bigger problems than a single library, but they also tend to have steeper learning curves and dictate the overall way your program must be structured.
 
-### Some modern SPA framworks
+### Some modern SPA frameworks
 
-- Angular JS : https://angularjs.org/
+- Angular JS: https://angularjs.org/
 
-- React JS : https://reactjs.org/
+- React JS: https://reactjs.org/
 
-- Vue : https://vuejs.org/
+- Vue: https://vuejs.org/
+
+### Some cool backend frameworks
+
+- Spring Boot: https://spring.io/projects/spring-boot
+
+- Laravel: https://laravel.com/
+
+- Django: https://www.djangoproject.com/
+
+### Java and JavaScript game frameworks
+
+- libGDX: https://libgdx.com/
+
+- Phaser: https://phaser.io/
 
 
 <!-- ![TBD](Under-Construction-Sign.png) -->

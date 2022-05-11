@@ -247,8 +247,8 @@ Notice we are not setting the ID of the `Post`?
 The `id` column is auto-incrementing, so MySQL will take care of this!
 
 ---
-### The following is a feature list to be implemented in your blog application:
-## FEA-13: As a user, I can see previous posts with categories which have been published. 
+### The following are user stories to be implemented in your blog application:
+## U13: As a user, I can see previous posts with categories which have been published. 
 
 If you haven't yet, complete the conversion of `User`, `Post`, and `Category` to be entities.
     

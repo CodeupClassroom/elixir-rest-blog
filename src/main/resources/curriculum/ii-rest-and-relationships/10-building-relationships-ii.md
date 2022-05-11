@@ -4,13 +4,13 @@ Now that we've bound Users and Posts together as a ***one-to-many*** relationshi
 relationship within our application.
 
 ---
-### The following is a feature list to be implemented in your blog application
+### The following are user stories to be implemented in your blog application
 
-## FEA-9: As a user, I can view categories assigned to a post
+## US9: As a user, I can view categories assigned to a post
 
-## FEA-10: As a user, I can assign categories to a post
+## US10: As a user, I can assign categories to a post
 
-## [OPTIONAL] FEA-11: As a user, I can search for posts by category.
+## [OPTIONAL] US11: As a user, I can search for posts by category.
 
 ---
 
@@ -25,7 +25,7 @@ This is indicating from under which categories a blog post can be found.
 Implementing this functionality is actually very simple!
 
 ---
-## FEA-9-A, FEA-10-A: Create the `Category` class
+## US9-A, US10-A: Create the `Category` class
 
 We will create an object which will represent a single category.
 
@@ -43,7 +43,7 @@ Its job is to provide the names of which categories *exist*.
 
 ---
 
-## FEA-9-B, FEA-10-B: Create Many-to-Many Relationship between Posts and Categories
+## US9-B, US10-B: Create Many-to-Many Relationship between Posts and Categories
 
 It's time to bind our `Post` and `Category` objects together, but first we need to think about the relationship between
 the two.
@@ -64,7 +64,7 @@ Thinking about this and how we implemented the Users-Posts relationship, try to 
 
 ---
 
-## FEA-9-C, FEA-10-C: Create the `CategoriesController`
+## US9-C, US10-C: Create the `CategoriesController`
 
 Now that we have this relationship established, let's expose endpoints to provide the functionality to our client.
 
@@ -91,11 +91,11 @@ Now that we have this relationship established, let's expose endpoints to provid
     
 ---
 
-### Implement these sub-features:
+### Implement these tasks:
 
-## FEA-9-D: Show categories of blog posts on the client-side
+## US9-D: Show categories of blog posts on the client-side
 
-## FEA-10-D: Enable assignment of categories on the client-side
+## US10-D: Enable assignment of categories on the client-side
 
 ## *¡Feel free to style up your frontend!*
 

@@ -45,18 +45,18 @@ As with previous lessons, test these changes in **Swagger** and see if you can g
 
 ---
 
-### The following is a feature list to be implemented in your blog application:
+### The following are user stories to be implemented in your blog application:
 
-## FEA-7: As a user, I can see the author of blog posts
+## US7: As a user, I can see the author of blog posts
 
-### FEA-7-A: Implement server-side
-### FEA-7-B: Implement client-side
+### US7-A: Implement server-side
+### US7-B: Implement client-side
 
 ---
-## FEA-8: As a user, I can see my authored blog posts (in the view in User.js)
+## US8: As a user, I can see my authored blog posts (in the view in User.js)
 
-### FEA-8-A: Implement server-side
-### FEA-8-B: Implement client-side
+### US8-A: Implement server-side
+### US8-B: Implement client-side
 
 ---
 

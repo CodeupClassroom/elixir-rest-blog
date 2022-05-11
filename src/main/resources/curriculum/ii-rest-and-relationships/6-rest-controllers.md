@@ -16,10 +16,10 @@ Most importantly, `@RestController` allows us to signify that a controller exist
 
 ---
 
-### This lesson will help us complete the below feature and associated tasks:
+### This lesson will help us complete the below user story and associated tasks:
 
-## FEA-1: As a user, I can view any posts.
-### FEA-1-A: Create a REST Controller to allow a client to make requests/responses related to Blog Posts.
+## US1: As a user, I can view any posts.
+### US1-A: Create a REST Controller to allow a client to make requests/responses related to Blog Posts.
 
 ---
 #### 1. Make sure your `pom.xml` has the following dependency (be sure to reload Maven if you add it):

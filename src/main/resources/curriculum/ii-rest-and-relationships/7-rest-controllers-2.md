@@ -33,17 +33,17 @@ From this point, Spring will attempt to convert the incoming request body to our
 Now, we are free to use the newly acquired parameter same as any other method!
 
 ---
-### The following is a feature list to be implemented in your blog application
+### The following are user stories to be implemented in your blog application
 
-## FEA-2: As a User, I can create posts.
+## US2: As a User, I can create posts.
 
-## FEA-3: As a User, I can edit posts.
+## US3: As a User, I can edit posts.
 
-## FEA-4: As a User, I can delete posts.
+## US4: As a User, I can delete posts.
 
 ---
 
-### FEA-2-A: Make `createPost()` & use `@PostMapping` to allow `POST` requests/responses to be handled in `PostsController`
+### US2-A: Make `createPost()` & use `@PostMapping` to allow `POST` requests/responses to be handled in `PostsController`
 
 #### 1. This method will be private, return void (Spring will handle the response), and accept a `Post` object. 
 - Name the `Post` parameter in a way which indicates it is to be created.
@@ -62,7 +62,7 @@ Now, we are free to use the newly acquired parameter same as any other method!
 #### 5. **Start the server and navigate to `http://localhost:8080/swagger-ui.html`. Then test the POST route on `/api/posts`.**
 
 ---
-### FEA-3-A: Make `updatePost()` & use `@PutMapping` to allow `PUT` requests/responses to be handled in `PostsController`
+### US3-A: Make `updatePost()` & use `@PutMapping` to allow `PUT` requests/responses to be handled in `PostsController`
 
 1. Set up this method much like `createPost()`, replacing `@PostMapping` with `@PutMapping("{id}")`.
 
@@ -74,7 +74,7 @@ Now, we are free to use the newly acquired parameter same as any other method!
 3. **Start the server and navigate to `http://localhost:8080/swagger-ui.html`. Then test the UPDATE route on `/api/posts`.**
 
 ---
-### FEA-4-A: Make `deletePost()` & `@DeleteMapping` to allow `DELETE` requests/responses to be handled in `PostsController`
+### US4-A: Make `deletePost()` & `@DeleteMapping` to allow `DELETE` requests/responses to be handled in `PostsController`
 
 If we remember from the Movies Backend, deleting a record is super easy!
    
@@ -102,7 +102,7 @@ Instead of getting the `Post` ID from the request body, we can grab it from the 
 
 Now, the time has *finally* come for us to venture back into our client-side!
 
-Your bare-bones JavaScript application could use some love right now as we finish implementing our feature list!
+Your bare-bones JavaScript application could use some love right now as we finish implementing our user stories!
 
 Using your knowledge of Fetch API, jQuery, Bootstrap, and more, it's time to implement Create, Update, and Delete functionality on our Posts!
 
@@ -114,15 +114,15 @@ But be patient with yourself: ***it's been a while since we dove into JavaScript
 
 ---
 
-NOTE: Feature FEA-1-B probably already works as it was implemented in our starter project.
+NOTE: US1-B probably already works as it was implemented in our starter project.
 
-## FEA-1-B: Use Javascript/jQuery to allow a user to *view* posts in the `PostIndex.js` view.
+## US1-B: Use Javascript/jQuery to allow a user to *view* posts in the `PostIndex.js` view.
 
-## FEA-2-B: Use Javascript/jQuery to allow a user to *create* posts in the `PostIndex.js` view.
+## US2-B: Use Javascript/jQuery to allow a user to *create* posts in the `PostIndex.js` view.
 
-## FEA-3-B: Use Javascript/jQuery to allow a user to *edit* posts in the `PostIndex.js` view.
+## US3-B: Use Javascript/jQuery to allow a user to *edit* posts in the `PostIndex.js` view.
 
-## FEA-4-B: Use Javascript/jQuery to allow a user to *delete* posts in the `PostIndex.js` view.
+## US4-B: Use Javascript/jQuery to allow a user to *delete* posts in the `PostIndex.js` view.
 
 ---
 
@@ -237,7 +237,7 @@ If you investigate the flow of our code, you will find that the `viewEvent` prop
    - Make sure that when you 'create' a new post, you see the logging occur on the Spring side. This means your request was received by the backend!
    
 ----
-#### 7. Make the edit and delete functionality in order to complete FEA-3-A and FEA-4-A
+#### 7. Make the edit and delete functionality in order to complete US3-A and US4-A
 - You will attach event listeners to new edit and delete buttons much like for the create button.
    
 

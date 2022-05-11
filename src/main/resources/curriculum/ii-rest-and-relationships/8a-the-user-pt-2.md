@@ -1,10 +1,10 @@
-## FEA-6: As a user, I can view, edit, and delete information about myself.
+## US6: As a user, I can view, edit, and delete information about myself.
 
 ---
-### FEA-6-A: Make `getAll` and `getById` in `UsersController`
+### US6-A: Make `getAll` and `getById` in `UsersController`
 - ***Good news! You already did that!***
 ---
-### FEA-6-B: Make `getByUsername` and `getByEmail`
+### US6-B: Make `getByUsername` and `getByEmail`
 #### 1. ***As you complete each method, test in Swagger***
 
 
@@ -20,7 +20,7 @@
     - e.g., http://localhost:8080/api/users/email?email=jimbo@aol.com
 
 ---
-### FEA-6-C: Create client-side User view
+### US6-C: Create client-side User view
 
 #### 1. Inside `views`, create a new `User.js` file. Use this file to create a view for allowing the `User` to see/edit information about themselves.
 - In your capstone project, this will be essential! So it's highly advisable that you attempt this view!
@@ -39,7 +39,7 @@
 
 ---
 
-### FEA-6-D: Make `updatePassword` in `UsersController`
+### US6-D: Make `updatePassword` in `UsersController`
 
 Create a `private` PUT method `updatePassword()` listening on `/api/users/{id}/updatePassword` which:
 
@@ -66,7 +66,7 @@ Be sure to include the following dependency in your pom.xml:
 
 ---
 
-### FEA-6-E: Implement the client-side ability to update the user's password
+### US6-E: Implement the client-side ability to update the user's password
 
 ---
 

@@ -42,13 +42,13 @@ For now, let's focus on the basics of our `User` by creating a model with a few 
 
 ---
 
-### The following is a feature list to be implemented in your blog application:
+### The following is a user story list to be implemented in your blog application:
 
-## FEA-5: As a user, I can register with the application
+## US5: As a user, I can register with the application
 
 ---
 
-### FEA-5-A: Implement the `User` class
+### US5-A: Implement the `User` class
 
 #### 1. Inside the `data` package, create a class named `User`
 
@@ -81,7 +81,7 @@ public class User {
 
 ---
 
-### FEA-5-B: Implement the `UsersController`
+### US5-B: Implement the `UsersController`
 
 We can now set up a REST Controller for the purpose of running CRUD operations related to the `User`.
 
@@ -106,7 +106,7 @@ We can now set up a REST Controller for the purpose of running CRUD operations r
 
 ---
 
-### FEA-5-C: Register the `User` Client-Side
+### US5-C: Register the `User` Client-Side
 
 `resources/static/js/views/Login.js`
 shows us how we can begin a view for creating users.

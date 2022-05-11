@@ -5,14 +5,14 @@
 
 ---
 ### This lesson is a continuation of: 
-## FEA-6: As a user, I can view, edit, and delete information about myself.
+## US6: As a user, I can view, edit, and delete information about myself.
 
 ### And will introduce, as part of this lesson:
-## FEA-12: Creation of and changes to posts will be stored
+## US12: Creation of and changes to posts will be stored
 
 ---
 
-## Treat this lesson as the implementation of FEA-12:
+## Treat this lesson as the implementation of US12:
 ## Repositories + JPA
 
 While there are many ways to interface with a database within Spring,
@@ -247,7 +247,7 @@ framework provides, including methods for retrieving an Iterable Interface (see 
 single post (`getOne`), inserting or updating a post (`save`), and deleting a post (`delete`).
 
 ---
-## FEA-6-F: Implement persistence for the `User`
+## US6-F: Implement persistence for the `User`
 
 1. Convert the `User` object to an Entity.
     - Use the `@Email` and `@NotEmpty` annotations for the `email` field

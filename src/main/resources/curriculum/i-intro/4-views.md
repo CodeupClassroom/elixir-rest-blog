@@ -140,4 +140,4 @@ We must do the following to use Thymeleaf:
 - [Thymeleaf Expression Language](http://www.thymeleaf.org/doc/articles/standarddialect5minutes.html)
 
 
-##Next Up: [REST](../ii-rest-and-relationships/5-rest.md)
+## Next Up: [REST](../ii-rest-and-relationships/5-rest.md)

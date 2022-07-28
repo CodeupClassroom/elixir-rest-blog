@@ -107,4 +107,4 @@ Making a request to `/increment/10` would result in `addOne()` returning:
 - [RequestMapping javadoc](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RequestMapping.html)
 
 
-##Next Up: [Views](4-views.md)
+## Next Up: [Views](4-views.md)

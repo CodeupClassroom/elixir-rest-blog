@@ -51,5 +51,5 @@ primarily be looking at the web portion of the framework. We will be using
 - Handle user requests to protected endpoints while exposing unprotected endpoints
 
 
-##Next Up: [Setup](2-setup.md)
+## Next Up: [Setup](2-setup.md)
 

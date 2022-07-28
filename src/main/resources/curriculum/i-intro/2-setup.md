@@ -62,5 +62,5 @@ be using to bootstrap our application.
 
 1. Let's code!
 
-##Next Up: [Blog App Features](2a-blog-features.md)
+## Next Up: [Blog App Features](2a-blog-features.md)
 
